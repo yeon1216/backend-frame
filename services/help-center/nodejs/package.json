@@ -1,0 +1,15 @@
+{
+  "name": "help_center",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mysql": "^2.18.1",
+    "mariadb": "^2.5.1"
+  }
+}

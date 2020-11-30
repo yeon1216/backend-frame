@@ -1,0 +1,8 @@
+# config file
+# config/.env.dev
+
+
+.DS_Store
+
+.vscode
+
