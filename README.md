@@ -11,7 +11,7 @@ $ docker-compose --env-file ./config/.env.dev up -d --build
 
 ```bash
 $ cd path/to/backend-frame
-$ docker-compose up -d --env-file ./config/.env.dev \
+$ docker-compose --env-file ./config/.env.dev up -d \
 --force-recreate --no-deps --build help-center-nodejs
 ```
 # 3. Architecture
