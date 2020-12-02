@@ -24,7 +24,8 @@ app.get('/test',(req,res)=>{
     if(!err){
       console.log(rows);
       console.log(fields);
-      let result="rows: " + JSON.stringify(rows) + "<br><br>" + "fields: " + JSON.stringify(fields);
+      // let result="rows: " + JSON.stringify(rows) + "<br><br>" + "fields: " + JSON.stringify(fields);
+      let result = JSON.stringify(rows);
       res.send(result);
     } else {
       console.log("query error: " + err);
